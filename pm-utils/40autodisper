@@ -2,7 +2,7 @@
 #
 # 40autorandr: Change autorandr profile on thaw/resume
 
-AUTORANDR="autorandr -c"
+AUTORANDR="autodisper -c"
 
 detect_display()
 {
