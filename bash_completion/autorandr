@@ -1,6 +1,6 @@
 # autorandr/auto-disper completion by Maciej 'macieks' Sitarz <macieks@freesco.pl>
 
-_autorandr ()
+_autodisper ()
 {
 	local cur prev opts lopts prfls
 
@@ -39,6 +39,5 @@ _autorandr ()
 
 	return 0
 }
-complete -F _autorandr autorandr
-complete -F _autorandr auto-disper
+complete -F _autorandr autodisper
 
